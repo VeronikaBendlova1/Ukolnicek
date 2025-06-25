@@ -1,0 +1,29 @@
+﻿@model Ukolnicek.Models.Ukol
+
+<h2>Nový úkol</h2>
+
+<a asp-controller="Home" asp-action="Index"><h3>Zpět</h3></a>
+
+<div class="wrapper">
+    <form asp-action="NovyUkol" method="post">
+        <div class="form-row">
+            <label asp-for="Nazev">Název</label>
+            <input asp-for="Nazev" />
+            <span asp-validation-for="Nazev" class="text-danger"></span>
+        </div>
+
+        <div class="form-row">
+            <label asp-for="Datum">Datum a čas:</label>
+            <input type="datetime-local"
+                   name="Datum"
+                   id="Datum"
+                   class="form-control"
+                   step="60"
+                   value="@Model?.Datum.ToLocalTime().ToString("yyyy-MM-ddTHH:mm")" />
+
+            <span asp-validation-for="Datum" class="text-danger"></span>
+        </div>
+
+        <button type="submit">Uložit</button>
+    </form>
+</div>

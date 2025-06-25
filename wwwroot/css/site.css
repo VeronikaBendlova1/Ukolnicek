@@ -1,0 +1,126 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+    background-color: #ffe9ba;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+    @media (min-width: 768px) {
+        html {
+            font-size: 16px;
+        }
+    }
+
+    .wrapper
+{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center; /* zarovnání vodorovnì */
+    align-items: center; /* zarovnání svisle */
+    
+}
+.form-row
+{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 1rem;
+   
+    
+}
+
+.form-row label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column; 
+    margin: 20px auto 60px auto;
+    text-align: center;
+    align-items: center;
+    max-width: 960px;
+
+}
+
+h2 {
+    color: #80592e;
+    font-size: 2.3rem;
+    margin: 30px auto 0 auto;
+}
+
+h3 {
+    color: #80592e;
+    font-size: 1.2rem;
+    margin: 15px auto 0 auto;
+}
+
+
+table {
+    margin: 10px auto;
+    width: 100%;
+    table-layout: fixed;
+    word-break: break-word;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: solid 3px #80592e;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+.badge {
+    background-color: #80592e;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+/* Styl pro focus u rùzných prvkù */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+footer {
+    background: white;
+}
+
+.novyUkol {
+
+    color: #80592e;
+    margin: 20px;
+
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}

@@ -1,0 +1,19 @@
+﻿@model List<Ukolnicek.Models.Ukol>
+
+<h2 style="margin-bottom:10px">Seznam smazaných úkolů</h2>
+
+<a asp-controller="Home" asp-action="Index"><h3>Zpět</h3></a>
+
+
+<table class="wrapper">
+    @foreach (var u in Model)
+    { 
+
+            <tr>
+                <td><strong>@u.Nazev</strong></td>
+                <td>@u.Datum.ToString("dd.MM.yyyy - HH:mm")</td>
+
+            </tr>
+
+        }
+    </table>

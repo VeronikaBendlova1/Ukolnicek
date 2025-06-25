@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Ukolnicek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\views\\home\\smazane.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:views\\home\\smazane.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\views\\home\\novyukol.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:views\\home\\novyukol.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\models\\ukol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:models\\ukol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\viewcomponents\\ukolynadnesekcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:viewcomponents\\ukolynadnesekcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\views\\shared\\components\\ukolynadnesek\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:views\\shared\\components\\ukolynadnesek\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|f:\\ukolnicek\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAA0FACB-562A-4283-9145-40A7C249AE3C}|Ukolnicek.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Smazane.cshtml",
+              "DocumentMoniker": "F:\\Ukolnicek\\Views\\Home\\Smazane.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Smazane.cshtml",
+              "ToolTip": "F:\\Ukolnicek\\Views\\Home\\Smazane.cshtml",
+              "RelativeToolTip": "Views\\Home\\Smazane.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T07:51:14.99Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "F:\\Ukolnicek\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "F:\\Ukolnicek\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwE4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-15T07:03:55.372Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Ukolnicek\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\Ukolnicek\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:30:03.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\Ukolnicek\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "F:\\Ukolnicek\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADgvxsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:55:20.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NovyUkol.cshtml",
+              "DocumentMoniker": "F:\\Ukolnicek\\Views\\Home\\NovyUkol.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\NovyUkol.cshtml",
+              "ToolTip": "F:\\Ukolnicek\\Views\\Home\\NovyUkol.cshtml",
+              "RelativeToolTip": "Views\\Home\\NovyUkol.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T10:32:16.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ukol.cs",
+              "DocumentMoniker": "F:\\Ukolnicek\\Models\\Ukol.cs",
+              "RelativeDocumentMoniker": "Models\\Ukol.cs",
+              "ToolTip": "F:\\Ukolnicek\\Models\\Ukol.cs",
+              "RelativeToolTip": "Models\\Ukol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:16:47.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UkolyNaDnesekComponent.cs",
+              "DocumentMoniker": "F:\\Ukolnicek\\ViewComponents\\UkolyNaDnesekComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\UkolyNaDnesekComponent.cs",
+              "ToolTip": "F:\\Ukolnicek\\ViewComponents\\UkolyNaDnesekComponent.cs",
+              "RelativeToolTip": "ViewComponents\\UkolyNaDnesekComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:28:38.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\Ukolnicek\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\Ukolnicek\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:18:19.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "F:\\Ukolnicek\\Views\\Shared\\Components\\UkolyNaDnesek\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\UkolyNaDnesek\\Default.cshtml",
+              "ToolTip": "F:\\Ukolnicek\\Views\\Shared\\Components\\UkolyNaDnesek\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\UkolyNaDnesek\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T07:55:28.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\Ukolnicek\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\Ukolnicek\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T07:12:47.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Ukolnicek\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Ukolnicek\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:21:34.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Ukolnicek\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\Ukolnicek\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T08:21:16.537Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

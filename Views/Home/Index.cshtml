@@ -1,0 +1,63 @@
+﻿@model List<Ukolnicek.Models.Ukol>
+
+@{
+    var timeZone = TimeZoneInfo.FindSystemTimeZoneById("Central Europe Standard Time");
+}
+
+<h2>Seznam úkolů</h2>
+
+<a class="novyUkol" href="/Home/NovyUkol"><strong>+ Nový úkol</strong></a>
+
+<!-- Odkaz na úkoly na dnešek -->
+<h3>
+    <a href="#dnesniUkoly" style="color: #80592e;">
+        Dnešní úkoly -  @await Component.InvokeAsync("UkolyNaDnesek")
+    </a>
+</h3>
+
+<!-- Všechny úkoly -->
+
+<table>
+    @foreach (var u in Model)
+    {
+        var localTime = TimeZoneInfo.ConvertTimeFromUtc(u.Datum, timeZone);
+        <tr>
+            <td style="max-width:58%; width: 58%; min-width: 58%"><strong>@u.Nazev</strong></td>
+            <td style="width: 18%">@localTime.ToString("dd.MM.yyyy - HH:mm")</td>
+            <td>
+                @if (!u.Hotovo)
+                {
+                    <a style="width: 12%" href="/Home/Dokoncit/@u.Id"><nobr>✔ Hotovo</nobr></a>
+                }
+            </td>
+            <td>
+                <a style="width: 12%" href="/Home/Smazat/@u.Id"><nobr>🗑 Smazat</nobr></a>
+            </td>
+        </tr>
+    }
+</table>
+
+<!-- Kotva pro skok dolů -->
+<h3 id="dnesniUkoly">Úkoly na dnešek</h3>
+
+<table>
+    @foreach (var u in Model.Where(x => x.Datum.Date == DateTime.UtcNow.Date))
+    {
+        <tr>
+            <td style="max-width:58%; width: 58%; min-width: 58%"><strong>@u.Nazev</strong></td>
+            <td style="width: 18%; ">@u.Datum.ToString("dd.MM.yyyy - HH:mm")</td>
+            <td>
+                @if (!u.Hotovo)
+                {
+                    <a style="width: 12%" href="/Home/Dokoncit/@u.Id"><nobr>✔ Hotovo</nobr></a>
+                }
+            </td>
+            <td>
+                <a style="width: 12%" href="/Home/Smazat/@u.Id"><nobr>🗑 Smazat</nobr></a>
+            </td>
+        </tr>
+    }
+</table>
+
+<!-- Archiv -->
+<a asp-controller="Home" asp-action="Smazane"><h3>Archiv (@ViewData["PocetUkolu"])</h3></a>
